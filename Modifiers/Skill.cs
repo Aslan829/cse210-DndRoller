@@ -10,7 +10,7 @@ namespace cse210_DnDRoller
         private SkillDice mainDice;
 
         private void ObtainDice(){
-            pr
+            
         }
     }
 }

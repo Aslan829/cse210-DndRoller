@@ -9,8 +9,8 @@ namespace cse210_DnDRoller
         public int value = 0;
 
 
-        public virtual void Roll(int value){
-
+        public virtual void Roll(int size){
+            this.size = size;
         }
     }
 }

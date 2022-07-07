@@ -1,15 +1,28 @@
 using System;
+using System.Text.Json;
 
-namespace cse210_02
+namespace cse210_DnDRoller
 {
-    public class Player
+    public class Character
     {
-        public List<Skill> SkillsList;
-        public List<Attack> AttackList;
+        public string name = "...";
+        public string characterLink = "";
+        // private string characterData = "";
+        //public List<Skill> SkillsList;
+        //public List<Attack> AttackList;
+
+        //Get the JSON character link.
+        public void getSheetLink() {
+            Console.WriteLine("What is the link to your character sheet? ");
+            this.characterLink = Console.ReadLine();
+            Console.WriteLine("\nLink is: " + this.characterLink);
+        }
 
         //Read JSON character sheet.
-        private void readJSON(){
-            //...
+        public void setCharacterSheet()
+        {
+            
+            // Console.WriteLine(this.characterData);
         }
 
         //Add skills to skill list and attacks to attack lists.
