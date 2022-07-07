@@ -7,10 +7,12 @@ namespace cse210_DnDRoller
     {  
         private string traitName ="";
         private int modifier = 0;
-        private SkillDice mainDice;
+        private Dice mainDice;
+
+        public
 
         private void ObtainDice(){
-            
+            //mainDice
         }
     }
 }
