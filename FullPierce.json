@@ -1,0 +1,12 @@
+{
+    "name": "Pierce",
+    "SkillsList": {
+        "Acrobatics" : 5, "Animal Handling": 0, "Arcana": 1, "Athletics": 7,
+         "Deception": -1, "History": 4, "Insight": 0, "Intimidation": -1, 
+         "Investigation": 4, "Medicine": 0, "Nature": 1, "Perception": 0, 
+         "Performance": -1, " Persuasion": -1, "Religion": 1, "Sleight Of Hand" : 2, "Stealth": 2, "Survival": 0},
+    "AttacksList":{
+        "Soulthorne" : 8, "Waffle Maker": 8, "Crossbow": 5, "Javelin": 7
+    }
+    
+}

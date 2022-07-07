@@ -9,15 +9,21 @@ namespace cse210_DnDRoller
         
         static public void Main(String[] args)
         {
-             //Create player class and set up the character sheet.
+
             Character player = new Character();
+
+            
+
+
+             //Create player class and set up the character sheet.
+           /* sheetReader player = new sheetReader();
             player.getSheetLink();
 
             //Sets character sheet
             string jsonString = File.ReadAllText(player.characterLink);
             Console.WriteLine(jsonString);
             Character test = JsonSerializer.Deserialize<Character>(jsonString)!;
-            Console.WriteLine("NAme is: " + test.name);
+            Console.WriteLine("NAme is: " + test.name);*/
            
         }
         

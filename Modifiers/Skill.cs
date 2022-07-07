@@ -5,14 +5,22 @@ namespace cse210_DnDRoller
 {
    public class Skill
     {  
-        private string traitName ="";
+        public string traitName ="";
         private int modifier = 0;
-        private Dice mainDice;
+        private Dice mainDice = new Dice();
+        
+        
 
-        public
-
-        private void ObtainDice(){
-            //mainDice
+        //Gets the mainDiceSize
+        public virtual void ObtainDiceSize(){
+            mainDice.getSize(20);
         }
+
+        //Sets the values of the Skill class.
+        public virtual void setValues(string traitName, int modifier){
+            this.traitName = traitName;
+            this.modifier = modifier;
+        }
+
     }
 }

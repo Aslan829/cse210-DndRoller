@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+
 namespace cse210_DnDRoller
 {
    public class Dice
@@ -9,8 +10,15 @@ namespace cse210_DnDRoller
         public int value = 0;
 
 
-        public virtual void Roll(int size){
+        public void getSize(int size){
             this.size = size;
+        }
+
+        
+
+        public void Roll(int size, int modifier){
+            var rand = new Random();
+            this.value = rand.Next(size + 1) + modifier;
         }
     }
 }
