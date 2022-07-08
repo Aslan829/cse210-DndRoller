@@ -85,6 +85,13 @@ namespace cse210_DnDRoller
         public void setAttackList(){
             Attack soulthorne = new Attack();
             soulthorne.setValues("Soulthorne", 8);
+            AttackList.Add(soulthorne);
+
+            Attack waffle = new Attack();
+            waffle.setValues("Waffle Maker", 8);
+            AttackList.Add(waffle);
+            
+
         }
 
     }

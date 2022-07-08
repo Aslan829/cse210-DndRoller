@@ -12,6 +12,12 @@ namespace cse210_DnDRoller
 
             Character player = new Character();
 
+            bool goAgain = true;
+
+            while(goAgain){
+                
+            }
+
             
 
 
