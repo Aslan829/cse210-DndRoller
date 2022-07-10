@@ -8,8 +8,8 @@ namespace cse210_DnDRoller
     {
         public string name = "Pierce";
         // private string characterData = "";
-        public List<Skill> SkillsList;
-        public List<Attack> AttackList;
+        public List<Skill> SkillsList = new List<Skill>();
+        public List<Attack> AttackList = new List<Attack>();
 
         //Get the JSON character link.
 

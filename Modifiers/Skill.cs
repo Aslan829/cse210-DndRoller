@@ -6,8 +6,8 @@ namespace cse210_DnDRoller
    public class Skill
     {  
         public string traitName ="";
-        private int modifier = 0;
-        private Dice mainDice = new Dice();
+        public int modifier = 0;
+        public Dice mainDice = new Dice();
         
         
 

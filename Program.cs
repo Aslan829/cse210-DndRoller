@@ -11,11 +11,12 @@ namespace cse210_DnDRoller
         {
 
             Character player = new Character();
+            GameRunner roller = new GameRunner();
 
             bool goAgain = true;
 
             while(goAgain){
-                
+                goAgain = roller.RunGame(goAgain, player);
             }
 
             
